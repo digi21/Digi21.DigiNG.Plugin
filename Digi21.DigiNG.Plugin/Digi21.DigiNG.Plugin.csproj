@@ -1,13 +1,13 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>17276d54-83a1-420d-8766-796f1bc73b4b</ProjectGuid>
+    <ProjectGuid>{17276D54-83A1-420D-8766-796F1BC73B4B}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Digi21.DigiNG.Plugin</RootNamespace>
+    <RootNamespace>Digi21</RootNamespace>
     <AssemblyName>Digi21.DigiNG.Plugin</AssemblyName>
     <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
@@ -31,24 +31,58 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="System"/>
-    
-    <Reference Include="System.Core"/>
-    <Reference Include="System.Xml.Linq"/>
-    <Reference Include="System.Data.DataSetExtensions"/>
-    
-    
-    <Reference Include="Microsoft.CSharp"/>
-    
-    <Reference Include="System.Data"/>
-    
-    <Reference Include="System.Net.Http"/>
-    
-    <Reference Include="System.Xml"/>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="DigiNG\ActiveParameters.cs" />
+    <Compile Include="DigiNG\AddingEntityEventArgs.cs" />
+    <Compile Include="DigiNG\Codes.cs" />
+    <Compile Include="DigiNG\Commands.cs" />
+    <Compile Include="DigiNG\DigiNG.cs" />
+    <Compile Include="DigiNG\DigitizingLineOptions.cs" />
+    <Compile Include="DigiNG\DrawingFile.cs" />
+    <Compile Include="DigiNG\DrawingMode.cs" />
+    <Compile Include="DigiNG\EntityEventArgs.cs" />
+    <Compile Include="DigiNG\GeographicCalculator.cs" />
+    <Compile Include="DigiNG\InputDevice.cs" />
+    <Compile Include="DigiNG\InputDeviceButton.cs" />
+    <Compile Include="DigiNG\InputDeviceOptions.cs" />
+    <Compile Include="DigiNG\LicenseInfo.cs" />
+    <Compile Include="DigiNG\Plugin\Command\Button.cs" />
+    <Compile Include="DigiNG\Plugin\Command\Command.cs" />
+    <Compile Include="DigiNG\Plugin\Command\CommandAttribute.cs" />
+    <Compile Include="DigiNG\Plugin\Command\EntitySelectedEventArgs.cs" />
+    <Compile Include="DigiNG\Plugin\Command\ICommand.cs" />
+    <Compile Include="DigiNG\Plugin\Command\LocalizableCommandAttribute.cs" />
+    <Compile Include="DigiNG\Plugin\Command\MoveEventArgs.cs" />
+    <Compile Include="DigiNG\Plugin\Command\RelatedCommandAttribute.cs" />
+    <Compile Include="DigiNG\Plugin\Search\LocalizableSearcherAttribute.cs" />
+    <Compile Include="DigiNG\Plugin\Search\ISearcher.cs" />
+    <Compile Include="DigiNG\Plugin\Search\SearcherAttribute.cs" />
+    <Compile Include="DigiNG\Plugin\Menu\CommandInMenuAttribute.cs" />
+    <Compile Include="DigiNG\Plugin\Menu\LocalizableCommandInMenuAttribute.cs" />
+    <Compile Include="DigiNG\Plugin\Menu\MenuItemGroup.cs" />
+    <Compile Include="DigiNG\SnappingOptions.cs" />
+    <Compile Include="DigiNG\Plugin\TaskPanel\TaskAnimateEntity.cs" />
+    <Compile Include="DigiNG\Plugin\TaskPanel\TaskEntityGotoPoint.cs" />
+    <Compile Include="DigiNG\Plugin\TaskPanel\TaskGotoPoint.cs" />
+    <Compile Include="DigiNG\Plugin\TaskPanel\TaskZoomEntity.cs" />
+    <Compile Include="DigiNG\VisualizationOptions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Digi21.DigiNG">
+      <Version>17.2.0</Version>
+    </PackageReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
- </Project>
+</Project>
