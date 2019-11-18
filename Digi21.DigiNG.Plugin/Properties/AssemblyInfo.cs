@@ -10,7 +10,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyDescription("Contains the types for programming DigiNG plugins in Digi3D.NET")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Dreaming With Objects S.L.")]
-[assembly: AssemblyProduct("Digi21.DigiNG.Plugin")]
+[assembly: AssemblyProduct("Digi3D.NET")]
 [assembly: AssemblyCopyright("Copyright (c) 2010-2019 Digi21.net")]
 [assembly: AssemblyTrademark("(c) 2010-2019 José Ángel Martínez Torres")]
 [assembly: AssemblyCulture("")]
