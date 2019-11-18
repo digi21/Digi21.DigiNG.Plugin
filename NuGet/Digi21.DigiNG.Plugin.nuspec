@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
   <metadata>
     <id>Digi21.DigiNG.Plugin</id>
-    <version>17.2.0</version>
+    <version>17.2.1</version>
     <title>Digi21.DigiNG.Plugin</title>
     <authors>José Ángel Martínez Torres</authors>
     <owners>Dreaming With Objects SL</owners>

@@ -1,4 +1,4 @@
-﻿using System.Windows.Input;
+﻿using Digi21.DigiNG.Plugin.Command;
 
 namespace Digi21.DigiNG
 {

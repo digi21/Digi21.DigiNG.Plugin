@@ -52,6 +52,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Digi3D\BallonIcon.cs" />
+    <Compile Include="Digi3D\Digi3D.cs" />
+    <Compile Include="Digi3D\MusicType.cs" />
+    <Compile Include="Digi3D\OutputWindow.cs" />
+    <Compile Include="Digi3D\PaneDock.cs" />
+    <Compile Include="Digi3D\Panes.cs" />
+    <Compile Include="Digi3D\Progress.cs" />
+    <Compile Include="Digi3D\StatusBar.cs" />
+    <Compile Include="Digi3D\Tasks.cs" />
     <Compile Include="DigiNG\ActiveParameters.cs" />
     <Compile Include="DigiNG\AddingEntityEventArgs.cs" />
     <Compile Include="DigiNG\Codes.cs" />
