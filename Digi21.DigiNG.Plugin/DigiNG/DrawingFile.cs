@@ -3,7 +3,6 @@ using Digi21.DigiNG.IO;
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using System.Runtime.InteropServices;
 
 namespace Digi21.DigiNG
 {
@@ -32,8 +31,8 @@ namespace Digi21.DigiNG
         public IDictionary<string, IDictionary<string, object>> GetDatabaseAttributes(Entity entity) { throw null; }
 
         public IDictionary<string, int> DatabaseTables { get; }
-        public bool CanWrite { [return: MarshalAs(UnmanagedType.U1)] get; }
-        public bool CanRead { [return: MarshalAs(UnmanagedType.U1)] get; }
+        public bool CanWrite { get; }
+        public bool CanRead { get; }
         public string Path { get; }
     }
 }
