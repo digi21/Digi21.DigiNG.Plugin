@@ -13,5 +13,7 @@
         public static Tasks Tasks { get; }
         public static OutputWindow OutputWindow { get; }
         public static StatusBar StatusBar { get; }
+        public static System.Drawing.Color BackgroundColor { get; }
+        public static System.Drawing.Color ForegroundColor { get; }
     }
 }
