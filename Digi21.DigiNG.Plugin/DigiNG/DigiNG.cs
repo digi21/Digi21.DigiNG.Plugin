@@ -3,6 +3,7 @@ using Digi21.DigiNG.Entities;
 using Digi21.DigiNG.IO;
 using Digi21.Math;
 using System;
+using System.CodeDom;
 using System.Collections.Generic;
 using System.Drawing;
 
@@ -66,5 +67,8 @@ namespace Digi21.DigiNG
         public static Digi21.DigiNG.DigiTab.DigiTab DigiTab { get; }
         public static Codes Codes { get; }
         public static LicenseInfo LicenseInfo { get; }
+
+        public static bool GetResultPythonExpression(Entity entity, string expression) { throw null;}
+        public static IEnumerable<Entity> SelectByPythonExpression(IEnumerable<Entity> entities, string expression) { throw null; }
     }
 }
