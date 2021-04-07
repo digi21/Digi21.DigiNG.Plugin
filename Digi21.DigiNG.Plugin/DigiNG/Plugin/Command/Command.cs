@@ -19,21 +19,21 @@ namespace Digi21.DigiNG.Plugin.Command
         public event EventHandler<Point3DEventArgs> SnapDown;
         public event EventHandler<Point3DEventArgs> SnapUp;
 
-        public Command() { throw null; }
-        public void Dispose() { throw null; }
-        public virtual bool OnDataDown(Point3D groundPoint) { throw null; }
-        public virtual bool OnDataUp(Point3D groundPoint) { throw null; }
-        public virtual void OnEntitySelected(Entity entity, Point3D groundPoint, int firstVertex, int secondVertex) { throw null; }
-        public virtual void OnInitialize() { throw null; }
-        public virtual void OnLostFocus() { throw null; }
-        public virtual void OnMove(Point3D groundPoint, Button button) { throw null; }
-        public virtual bool OnResetDown(Point3D groundPoint) { throw null; }
-        public virtual bool OnResetUp(Point3D groundPoint) { throw null; }
-        public virtual void OnSetFocus() { throw null; }
-        public virtual bool OnSnapDown(Point3D groundPoint) { throw null; }
-        public virtual bool OnSnapUp(Point3D groundPoint) { throw null; }
+        public Command() => throw null;
+        public void Dispose() => throw null;
+        public virtual bool OnDataDown(Point3D groundPoint) => throw null;
+        public virtual bool OnDataUp(Point3D groundPoint) => throw null;
+        public virtual void OnEntitySelected(Entity entity, Point3D groundPoint, int firstVertex, int secondVertex) => throw null;
+        public virtual void OnInitialize() => throw null;
+        public virtual void OnLostFocus() => throw null;
+        public virtual void OnMove(Point3D groundPoint, Button button) => throw null;
+        public virtual bool OnResetDown(Point3D groundPoint) => throw null;
+        public virtual bool OnResetUp(Point3D groundPoint) => throw null;
+        public virtual void OnSetFocus() => throw null;
+        public virtual bool OnSnapDown(Point3D groundPoint) => throw null;
+        public virtual bool OnSnapUp(Point3D groundPoint) => throw null;
 
-        public string[] Args { get; }
+        public string[] Args => throw null;
         public bool AllowRepeat { get; set; }
     }
 }

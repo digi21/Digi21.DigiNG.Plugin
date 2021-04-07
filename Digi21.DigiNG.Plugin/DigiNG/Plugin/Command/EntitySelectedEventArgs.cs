@@ -6,11 +6,11 @@ namespace Digi21.DigiNG.Plugin.Command
 {
     public class EntitySelectedEventArgs : EventArgs
     {
-        public EntitySelectedEventArgs(Entity entity, Point3D groundPoint, int firstVertex, int secondVertex) { throw null; }
+        public EntitySelectedEventArgs(Entity entity, Point3D groundPoint, int firstVertex, int secondVertex) => throw null;
 
-        public int SecondVertex { get; }
-        public int FirstVertex { get; }
-        public Point3D Coordinates { get; }
-        public Entity Entity { get; }
+        public int SecondVertex => throw null;
+        public int FirstVertex => throw null;
+        public Point3D Coordinates => throw null;
+        public Entity Entity => throw null;
     }
 }

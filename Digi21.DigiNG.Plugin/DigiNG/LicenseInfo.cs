@@ -2,6 +2,6 @@
 {
     public sealed class LicenseInfo
     {
-        public string KeyID { get; }
+        public string KeyID => throw null;
     }
 }

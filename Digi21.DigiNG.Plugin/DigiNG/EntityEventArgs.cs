@@ -5,8 +5,8 @@ namespace Digi21.DigiNG
 {
     public class EntityEventArgs : EventArgs
     {
-        public EntityEventArgs(Entity entity) { throw null; }
-        public Entity Entity { get; }
+        public EntityEventArgs(Entity entity) => throw null;
+        public Entity Entity => throw null;
     }
 
 }

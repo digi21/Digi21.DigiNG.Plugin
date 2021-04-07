@@ -2,7 +2,7 @@
 {
     public class StatusBar
     {
-        public Progress ProgressBar { get; }
-        public string Text { set { throw null; } }
+        public Progress ProgressBar => throw null;
+        public string Text { set => throw null; }
     }
 }
