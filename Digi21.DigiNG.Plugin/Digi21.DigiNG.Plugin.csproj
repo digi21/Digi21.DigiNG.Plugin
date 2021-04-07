@@ -83,6 +83,8 @@
     <Compile Include="DigiNG\Plugin\Command\LocalizableCommandAttribute.cs" />
     <Compile Include="DigiNG\Plugin\Command\MoveEventArgs.cs" />
     <Compile Include="DigiNG\Plugin\Command\RelatedCommandAttribute.cs" />
+    <Compile Include="DigiNG\Plugin\Databases\DynamicPropertyAttribute.cs" />
+    <Compile Include="DigiNG\Plugin\Databases\IDynamicProperty.cs" />
     <Compile Include="DigiNG\Plugin\Search\LocalizableSearcherAttribute.cs" />
     <Compile Include="DigiNG\Plugin\Search\ISearcher.cs" />
     <Compile Include="DigiNG\Plugin\Search\SearcherAttribute.cs" />
@@ -105,5 +107,6 @@
       <Version>17.4.0</Version>
     </PackageReference>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
