@@ -85,6 +85,11 @@
     <Compile Include="DigiNG\Plugin\Command\RelatedCommandAttribute.cs" />
     <Compile Include="DigiNG\Plugin\Databases\DynamicPropertyAttribute.cs" />
     <Compile Include="DigiNG\Plugin\Databases\IDynamicProperty.cs" />
+    <Compile Include="DigiNG\Plugin\QualityControl\DatabaseAttributeException.cs" />
+    <Compile Include="DigiNG\Plugin\QualityControl\DigitizeAsPointException.cs" />
+    <Compile Include="DigiNG\Plugin\QualityControl\GeometricRelationException.cs" />
+    <Compile Include="DigiNG\Plugin\QualityControl\GeometryException.cs" />
+    <Compile Include="DigiNG\Plugin\QualityControl\ITrigger.cs" />
     <Compile Include="DigiNG\Plugin\Search\LocalizableSearcherAttribute.cs" />
     <Compile Include="DigiNG\Plugin\Search\ISearcher.cs" />
     <Compile Include="DigiNG\Plugin\Search\SearcherAttribute.cs" />

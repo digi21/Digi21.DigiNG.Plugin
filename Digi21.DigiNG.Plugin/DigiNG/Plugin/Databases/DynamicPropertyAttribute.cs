@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Digi21.DigiNG.Plugin.Search
+namespace Digi21.DigiNG.Plugin.Databases
 {
     public class DynamicPropertyAttribute : Attribute
     {

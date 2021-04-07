@@ -1,6 +1,6 @@
 ﻿using Digi21.DigiNG.Entities;
 
-namespace Digi21.DigiNG.Plugin.Search
+namespace Digi21.DigiNG.Plugin.Databases
 {
     public interface IDynamicProperty
     {
