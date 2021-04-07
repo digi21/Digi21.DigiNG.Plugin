@@ -96,6 +96,7 @@
     <Compile Include="DigiNG\Plugin\Menu\CommandInMenuAttribute.cs" />
     <Compile Include="DigiNG\Plugin\Menu\LocalizableCommandInMenuAttribute.cs" />
     <Compile Include="DigiNG\Plugin\Menu\MenuItemGroup.cs" />
+    <Compile Include="DigiNG\Plugin\TaskPanel\TaskMessageBox.cs" />
     <Compile Include="DigiNG\SnappingOptions.cs" />
     <Compile Include="DigiNG\Plugin\TaskPanel\TaskAnimateEntity.cs" />
     <Compile Include="DigiNG\Plugin\TaskPanel\TaskEntityGotoPoint.cs" />
