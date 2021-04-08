@@ -75,7 +75,6 @@
     <Compile Include="DigiNG\InputDeviceButton.cs" />
     <Compile Include="DigiNG\InputDeviceOptions.cs" />
     <Compile Include="DigiNG\LicenseInfo.cs" />
-    <Compile Include="DigiNG\Plugin\Command\Button.cs" />
     <Compile Include="DigiNG\Plugin\Command\Command.cs" />
     <Compile Include="DigiNG\Plugin\Command\CommandAttribute.cs" />
     <Compile Include="DigiNG\Plugin\Command\EntitySelectedEventArgs.cs" />
