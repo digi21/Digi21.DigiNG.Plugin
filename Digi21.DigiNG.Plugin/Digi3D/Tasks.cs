@@ -1,4 +1,6 @@
-﻿namespace Digi21.Digi3D
+﻿using Digi21.Tasks;
+
+namespace Digi21.Digi3D
 {
     public class Tasks
     {

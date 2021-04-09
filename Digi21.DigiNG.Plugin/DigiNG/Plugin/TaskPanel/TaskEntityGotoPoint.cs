@@ -2,6 +2,7 @@
 using Digi21.DigiNG.Entities;
 using Digi21.Math;
 using System.Drawing;
+using Digi21.Tasks;
 
 namespace Digi21.DigiNG.Plugin.TaskPanel
 {
