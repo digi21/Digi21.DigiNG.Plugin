@@ -34,5 +34,6 @@ namespace Digi21.DigiNG
         public bool CanWrite => throw null;
         public bool CanRead => throw null;
         public string Path => throw null;
+        public string ConnectionString => throw null;
     }
 }
