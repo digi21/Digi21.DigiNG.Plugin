@@ -56,6 +56,7 @@
     <Compile Include="Digi3D\Digi3D.cs" />
     <Compile Include="Digi3D\MusicType.cs" />
     <Compile Include="Digi3D\OutputWindow.cs" />
+    <Compile Include="Digi3D\Pane.cs" />
     <Compile Include="Digi3D\PaneDock.cs" />
     <Compile Include="Digi3D\Panes.cs" />
     <Compile Include="Digi3D\Progress.cs" />
