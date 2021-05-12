@@ -43,7 +43,8 @@ namespace Digi21.DigiNG
         public static void DrawEntity(IEnumerable<Entity> entities, bool drawInCadWindow, bool drawInPhotogrammetricWindow, bool allowPattern) => throw null;
         public static void DrawEntity(Entity entity, bool drawInCadWindow, bool drawInPhotogrammetricWindow, bool allowPattern, DrawingMode mode) => throw null;
         public static void DrawEntity(IEnumerable<Entity> entities, bool drawInCadWindow, bool drawInPhotogrammetricWindow, bool allowPattern, DrawingMode mode) => throw null;
-        public static void NewTransaction() => throw null;
+        public static void NewTransaction(bool finishCurrentTransaction=true) => throw null;
+        public static void FinishTransaction() => throw null;
         public static void RenderScene() => throw null;
         public static void SelectEntity(Point3D groundPoint) => throw null;
         public static void SelectEntity(Point3D groundPoint, Func<Entity, bool> predicate) => throw null;
