@@ -28,8 +28,6 @@ namespace Digi21.DigiNG
         public void Undelete(IEnumerable<Entity> entities) => throw null;
 
         public string Wkt => throw null;
-        public IDictionary<string, IDictionary<string, object>> GetDatabaseAttributes(Entity entity) => throw null;
-
         public IDictionary<string, int> DatabaseTables => throw null;
         public bool CanWrite => throw null;
         public bool CanRead => throw null;
