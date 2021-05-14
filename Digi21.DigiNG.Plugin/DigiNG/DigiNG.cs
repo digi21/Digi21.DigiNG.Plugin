@@ -15,6 +15,7 @@ namespace Digi21.DigiNG
         public static event EventHandler<EventArgs> DestroyingWindow;
         public static event EventHandler<EntityEventArgs> EntityAdded;
         public static event EventHandler<EntityEventArgs> EntityDeleted;
+        public static event EventHandler<EntityEventArgs> EntityRecovered;
         public static event EventHandler<EventArgs> PostRender;
         public static event EventHandler<EventArgs> PreRender;
         public static event EventHandler<EventArgs> WindowCreated;
