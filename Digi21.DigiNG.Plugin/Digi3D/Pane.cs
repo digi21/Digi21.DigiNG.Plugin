@@ -74,5 +74,6 @@ namespace Digi21.Digi3D
         public void Close() => throw null;
         public void Hide() => throw null;
         public void Select() => throw null;
+        public void ToggleDocking() => throw null;
     }
 }
