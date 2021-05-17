@@ -15,7 +15,6 @@ namespace Digi21.DigiNG
         public ReadOnlyPolygon Add(Polygon polygon) => throw null;
         public ReadOnlyText Add(Text text) => throw null;
         public void Add(IEnumerable<Entity> entities) => throw null;
-        public void Add(Entity entity, IDictionary<string, IDictionary<string, object>> databaseAttributes) => throw null;
         public void Backup() => throw null;
         public void Compress() => throw null;
         public void Delete(Entity entity) => throw null;
