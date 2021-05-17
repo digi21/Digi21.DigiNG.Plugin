@@ -1,10 +1,14 @@
-﻿using System.Collections.Generic;
+﻿using System.CodeDom;
+using System.Collections.Generic;
 
 namespace Digi21.Digi3D
 {
     public class OutputWindow
     {
         public void Clear() => throw null;
+        public void Show() => throw null;
+        public void Hide() => throw null;
+        public void ToggleDocking() => throw null;
         public void ScrollToEnd() => throw null;
         public void WriteLine(IEnumerable<string> strings) => throw null;
         public void WriteLine(string stringToAdd) => throw null;
