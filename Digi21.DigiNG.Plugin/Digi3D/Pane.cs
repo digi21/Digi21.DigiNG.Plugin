@@ -75,5 +75,8 @@ namespace Digi21.Digi3D
         public void Hide() => throw null;
         public void Select() => throw null;
         public void ToggleDocking() => throw null;
+        public void FloatPane(Rectangle rect) => throw null;
+        public void DockPane(PaneDock dock) => throw null;
+        public void DockSidePane(PaneDock dock, Size size) => throw null;
     }
 }
