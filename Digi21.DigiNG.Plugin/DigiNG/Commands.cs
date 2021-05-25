@@ -9,7 +9,7 @@ namespace Digi21.DigiNG
         public void Push(string command) => throw null;
         public void Push(string command, bool allowRepeat) => throw null;
         public void Push(Command command) => throw null;
-
+        public T Push<T>(params object[] args) where T : Command => throw null;
         public bool AllowRepeat { get; set; }
         public bool LockRepeat { get; set; }
         public ICommand Top => throw null;
