@@ -1,4 +1,6 @@
-﻿namespace Digi21.Digi3D
+﻿using System;
+
+namespace Digi21.Digi3D
 {
     public static class Digi3D
     {
@@ -15,5 +17,6 @@
         public static StatusBar StatusBar => throw null;
         public static System.Drawing.Color BackgroundColor => throw null;
         public static System.Drawing.Color ForegroundColor => throw null;
+        public static String CommandLine => throw null;
     }
 }
