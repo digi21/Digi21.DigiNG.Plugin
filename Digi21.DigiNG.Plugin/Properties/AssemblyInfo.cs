@@ -11,7 +11,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Dreaming With Objects S.L.")]
 [assembly: AssemblyProduct("Digi3D.NET")]
-[assembly: AssemblyCopyright("Copyright (c) 2010-2021 Digi21.net")]
+[assembly: AssemblyCopyright("Copyright (c) 2010-2022 Digi21.net")]
 [assembly: AssemblyTrademark("(c) 2010-2021 José Ángel Martínez Torres")]
 [assembly: AssemblyCulture("")]
 
@@ -33,5 +33,5 @@ using System.Runtime.InteropServices;
 // You can specify all the values or you can default the Build and Revision Numbers
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("22.1.0.0")]
-[assembly: AssemblyFileVersion("2.0.0.0")]
+[assembly: AssemblyVersion("22.2.0.0")]
+[assembly: AssemblyFileVersion("3.0.0.0")]
