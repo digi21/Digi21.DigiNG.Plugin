@@ -12,7 +12,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyCompany("Dreaming With Objects S.L.")]
 [assembly: AssemblyProduct("Digi3D.NET")]
 [assembly: AssemblyCopyright("Copyright (c) 2010-2022 Digi21.net")]
-[assembly: AssemblyTrademark("(c) 2010-2021 José Ángel Martínez Torres")]
+[assembly: AssemblyTrademark("(c) 2010-2022 José Ángel Martínez Torres")]
 [assembly: AssemblyCulture("")]
 
 // Setting ComVisible to false makes the types in this assembly not visible
