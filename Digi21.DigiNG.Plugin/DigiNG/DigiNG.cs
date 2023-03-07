@@ -49,6 +49,7 @@ namespace Digi21.DigiNG
         public static void RenderScene() => throw null;
         public static void SelectEntity(Point3D groundPoint) => throw null;
         public static void SelectEntity(Point3D groundPoint, Func<Entity, bool> predicate) => throw null;
+        public static double? Project(Point3D groundPoint) => throw null;
         public static void SendInputDeviceEvent(Point3D worldCoordinates, InputDeviceButton button) => throw null;
         public static void SetVisible(Entity entity, bool visible) => throw null;
         public static bool Undo() => throw null;
