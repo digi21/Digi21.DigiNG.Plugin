@@ -1,34 +1,11 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{17276D54-83A1-420D-8766-796F1BC73B4B}</ProjectGuid>
+    <TargetFramework>net8.0-windows10.0.17763.0</TargetFramework>
     <OutputType>Library</OutputType>
-    <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Digi21</RootNamespace>
-    <AssemblyName>Digi21.DigiNG.Plugin</AssemblyName>
-    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
-    <FileAlignment>512</FileAlignment>
-    <Deterministic>true</Deterministic>
-  </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <DebugSymbols>true</DebugSymbols>
-    <DebugType>full</DebugType>
-    <Optimize>false</Optimize>
-    <OutputPath>bin\Debug\</OutputPath>
-    <DefineConstants>DEBUG;TRACE</DefineConstants>
-    <ErrorReport>prompt</ErrorReport>
-    <WarningLevel>4</WarningLevel>
-  </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <DebugType>pdbonly</DebugType>
-    <Optimize>true</Optimize>
-    <OutputPath>bin\Release\</OutputPath>
-    <DefineConstants>TRACE</DefineConstants>
-    <ErrorReport>prompt</ErrorReport>
-    <WarningLevel>4</WarningLevel>
+    <GenerateAssemblyInfo>True</GenerateAssemblyInfo>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImportWindowsDesktopTargets>true</ImportWindowsDesktopTargets>
   </PropertyGroup>
   <PropertyGroup>
     <ProduceReferenceAssembly>true</ProduceReferenceAssembly>
@@ -38,80 +15,34 @@
   </PropertyGroup>
   <PropertyGroup>
     <AssemblyOriginatorKeyFile>certificadoSxsDigi21.pfx</AssemblyOriginatorKeyFile>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>$(AssemblyName)</Title>
+    <Version>24.0.0</Version>
+    <Authors>José Ángel Martínez Torres</Authors>
+    <Company>Dreaming With Objects SL</Company>
+    <Description>This package contains runtime assemblies for creating Digi3D.NET extensions such as commands, search engines, etc.
+
+A Digi3D.NET license is required to run applications that use the assemblies published by this package. Rent a license at https://www.digi21.net/Tienda/Alquiler or buy a license at https://www.digi21.net/Tienda/Compra</Description>
+    <Copyright>(c) 2000-2024 Dreaming With Objects S.L.</Copyright>
+    <PackageProjectUrl>https://digi3d.net/</PackageProjectUrl>
+    <PackageIcon>IconoDigi21.png</PackageIcon>
+    <RepositoryUrl>https://github.com/digi21/Digi21.DigiNG.Plugin.git</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>Digi3D Digi3D.NET Digi21 Digi DigiNG Plugin</PackageTags>
+    <PackageReleaseNotes>Please visit https://www.digi21.net/Digi3D/Download to read the release notes.</PackageReleaseNotes>
+    <AssemblyVersion>24.0.0</AssemblyVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="System" />
-    <Reference Include="System.Core" />
-    <Reference Include="System.Drawing" />
-    <Reference Include="System.Windows.Forms" />
-    <Reference Include="System.Xml.Linq" />
-    <Reference Include="System.Data.DataSetExtensions" />
-    <Reference Include="Microsoft.CSharp" />
-    <Reference Include="System.Data" />
-    <Reference Include="System.Net.Http" />
-    <Reference Include="System.Xml" />
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Include="Digi3D\BallonIcon.cs" />
-    <Compile Include="Digi3D\Digi3D.cs" />
-    <Compile Include="Digi3D\MusicType.cs" />
-    <Compile Include="Digi3D\OutputWindow.cs" />
-    <Compile Include="Digi3D\Pane.cs" />
-    <Compile Include="Digi3D\PaneDock.cs" />
-    <Compile Include="Digi3D\Panes.cs" />
-    <Compile Include="Digi3D\Progress.cs" />
-    <Compile Include="Digi3D\StatusBar.cs" />
-    <Compile Include="Digi3D\Tasks.cs" />
-    <Compile Include="DigiNG\ActiveParameters.cs" />
-    <Compile Include="DigiNG\AddingEntityEventArgs.cs" />
-    <Compile Include="DigiNG\Codes.cs" />
-    <Compile Include="DigiNG\Commands.cs" />
-    <Compile Include="DigiNG\DigiNG.cs" />
-    <Compile Include="DigiNG\DigitizingLineOptions.cs" />
-    <Compile Include="DigiNG\DrawingFile.cs" />
-    <Compile Include="DigiNG\DrawingMode.cs" />
-    <Compile Include="DigiNG\EntityEventArgs.cs" />
-    <Compile Include="DigiNG\GeographicCalculator.cs" />
-    <Compile Include="DigiNG\InputDevice.cs" />
-    <Compile Include="DigiNG\InputDeviceButton.cs" />
-    <Compile Include="DigiNG\InputDeviceOptions.cs" />
-    <Compile Include="DigiNG\LicenseInfo.cs" />
-    <Compile Include="DigiNG\Plugin\Command\Command.cs" />
-    <Compile Include="DigiNG\Plugin\Command\CommandAttribute.cs" />
-    <Compile Include="DigiNG\Plugin\Command\EntitySelectedEventArgs.cs" />
-    <Compile Include="DigiNG\Plugin\Command\ICommand.cs" />
-    <Compile Include="DigiNG\Plugin\Command\LocalizableCommandAttribute.cs" />
-    <Compile Include="DigiNG\Plugin\Command\MoveEventArgs.cs" />
-    <Compile Include="DigiNG\Plugin\Command\RelatedCommandAttribute.cs" />
-    <Compile Include="DigiNG\Plugin\Databases\DynamicPropertyAttribute.cs" />
-    <Compile Include="DigiNG\Plugin\Databases\IDynamicProperty.cs" />
-    <Compile Include="DigiNG\Plugin\QualityControl\DatabaseAttributeException.cs" />
-    <Compile Include="DigiNG\Plugin\QualityControl\DigitizeAsPointException.cs" />
-    <Compile Include="DigiNG\Plugin\QualityControl\GeometricRelationException.cs" />
-    <Compile Include="DigiNG\Plugin\QualityControl\GeometryException.cs" />
-    <Compile Include="DigiNG\Plugin\QualityControl\ITrigger.cs" />
-    <Compile Include="DigiNG\Plugin\Search\LocalizableSearcherAttribute.cs" />
-    <Compile Include="DigiNG\Plugin\Search\ISearcher.cs" />
-    <Compile Include="DigiNG\Plugin\Search\SearcherAttribute.cs" />
-    <Compile Include="DigiNG\Plugin\Menu\CommandInMenuAttribute.cs" />
-    <Compile Include="DigiNG\Plugin\Menu\LocalizableCommandInMenuAttribute.cs" />
-    <Compile Include="DigiNG\Plugin\Menu\MenuItemGroup.cs" />
-    <Compile Include="DigiNG\Plugin\TaskPanel\TaskMessageBox.cs" />
-    <Compile Include="DigiNG\SnappingOptions.cs" />
-    <Compile Include="DigiNG\Plugin\TaskPanel\TaskAnimateEntity.cs" />
-    <Compile Include="DigiNG\Plugin\TaskPanel\TaskEntityGotoPoint.cs" />
-    <Compile Include="DigiNG\Plugin\TaskPanel\TaskGotoPoint.cs" />
-    <Compile Include="DigiNG\Plugin\TaskPanel\TaskZoomEntity.cs" />
-    <Compile Include="DigiNG\VisualizationOptions.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="certificadoSxsDigi21.pfx" />
+    <None Include="..\NuGet\IconoDigi21.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Digi21.DigiNG">
-      <Version>22.3.0</Version>
+      <Version>24.0.0</Version>
     </PackageReference>
+    <PackageReference Include="Microsoft.CSharp" Version="4.7.0" />
+    <PackageReference Include="System.Data.DataSetExtensions" Version="4.5.0" />
   </ItemGroup>
-  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
