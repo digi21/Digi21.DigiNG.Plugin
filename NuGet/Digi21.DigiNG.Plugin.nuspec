@@ -20,7 +20,7 @@
 		<repository type="git" url="https://github.com/digi21/Digi21.DigiNG.Plugin.git" commit="4791a3789f3bdedaddd8e697a19b30de818fa62f" />
 		<dependencies>
 			<group targetFramework="net8.0-windows">
-				<dependency id="Digi21.DigiNG" version="24.0.0" exclude="Build,Analyzers" />
+				<dependency id="Digi21.DigiNG" version="24.0.0" />
 			</group>
 		</dependencies>
 		<frameworkReferences>
