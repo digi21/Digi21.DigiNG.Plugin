@@ -32,6 +32,12 @@ A Digi3D.NET license is required to run applications that use the assemblies pub
     <PackageReleaseNotes>Please visit https://www.digi21.net/Digi3D/Download to read the release notes.</PackageReleaseNotes>
     <AssemblyVersion>24.0.0</AssemblyVersion>
   </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <NoWarn>1701;1702;67</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <NoWarn>1701;1702;67</NoWarn>
+  </PropertyGroup>
   <ItemGroup>
     <None Include="..\NuGet\IconoDigi21.png">
       <Pack>True</Pack>
