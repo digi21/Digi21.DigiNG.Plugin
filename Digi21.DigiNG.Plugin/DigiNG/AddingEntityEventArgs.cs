@@ -1,6 +1,5 @@
 ﻿using Digi21.DigiNG.Entities;
 using System;
-using System.Collections.Generic;
 
 namespace Digi21.DigiNG
 {

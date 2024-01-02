@@ -3,7 +3,6 @@ using Digi21.DigiNG.Entities;
 using Digi21.DigiNG.IO;
 using Digi21.Math;
 using System;
-using System.CodeDom;
 using System.Collections.Generic;
 using System.Drawing;
 
