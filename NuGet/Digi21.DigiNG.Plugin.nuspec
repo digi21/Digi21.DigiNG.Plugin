@@ -19,7 +19,7 @@
 		<tags>Digi3D Digi3D.NET Digi21 Digi DigiNG Plugin</tags>
 		<repository type="git" url="https://github.com/digi21/Digi21.DigiNG.Plugin.git" commit="4791a3789f3bdedaddd8e697a19b30de818fa62f" />
 		<dependencies>
-			<group targetFramework="net8.0-windows10.0.17763">
+			<group targetFramework="net8.0-windows">
 				<dependency id="Digi21.DigiNG" version="24.0.0" exclude="Build,Analyzers" />
 				<dependency id="Microsoft.CSharp" version="4.7.0" exclude="Build,Analyzers" />
 				<dependency id="System.Data.DataSetExtensions" version="4.5.0" exclude="Build,Analyzers" />
@@ -32,7 +32,7 @@
 		</frameworkReferences>
 	</metadata>
 	<files>
-		<file src="..\Digi21.DigiNG.Plugin\obj\Release\net8.0-windows10.0.17763.0\ref\Digi21.DigiNG.Plugin.dll" target="ref\net8.0-windows10.0.17763\Digi21.DigiNG.Plugin.dll" />
+		<file src="..\Digi21.DigiNG.Plugin\obj\Release\net8.0-windows\ref\Digi21.DigiNG.Plugin.dll" target="ref\net8.0-windows\Digi21.DigiNG.Plugin.dll" />
 		<file src="IconoDigi21.png" target="IconoDigi21.png" />
 	</files>
 </package>
