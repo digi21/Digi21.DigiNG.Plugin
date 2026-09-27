@@ -9,6 +9,7 @@ namespace Digi21.DigiNG
 {
     public class DrawingFile : IDrawingFile, IDisposable
     {
+        internal DrawingFile() => throw null;
         public ReadOnlyComplex Add(Complex complex) => throw null;
         public void Add(Entity entity) => throw null;
         public ReadOnlyLine Add(Line line) => throw null;

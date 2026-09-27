@@ -5,6 +5,7 @@ namespace Digi21.Digi3D
 {
     public class OutputWindow
     {
+        internal OutputWindow() => throw null;
         public void Clear() => throw null;
         public void Show() => throw null;
         public void Hide() => throw null;

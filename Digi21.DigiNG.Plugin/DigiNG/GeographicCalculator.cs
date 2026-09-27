@@ -5,6 +5,7 @@ namespace Digi21.DigiNG
 {
     public class GeographicCalculator
     {
+        internal GeographicCalculator() => throw null;
         public double CalculateArea(ReadOnlyLine line) => throw null;
         public double CalculateArea(ReadOnlyPolygon polygon) => throw null;
         public double CalculateDistance2D(Point2D pointA, Point2D pointB) => throw null;

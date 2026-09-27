@@ -4,6 +4,7 @@ namespace Digi21.DigiNG
 {
     public sealed class ActiveParameters
     {
+        internal ActiveParameters() => throw null;
         public double Equidistance { get; set; }
         public double TextHeight { get; set; }
         public double SecondaryActiveDistance { get; set; }

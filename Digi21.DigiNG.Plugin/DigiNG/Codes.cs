@@ -6,6 +6,7 @@ namespace Digi21.DigiNG
 {
     public class Codes
     {
+        internal Codes() => throw null;
         public Code[] DlgSelectCodes(string title, bool allowMultipleCodes) => throw null;
         public int SelectCodeFromList(string title, Code[] listOfCodes) => throw null;
         public void ShowCode(Func<string, bool> showThisCode) => throw null;

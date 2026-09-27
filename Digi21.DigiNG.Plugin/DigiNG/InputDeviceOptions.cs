@@ -4,6 +4,7 @@ namespace Digi21.DigiNG
 {
     public sealed class InputDeviceOptions
     {
+        internal InputDeviceOptions() => throw null;
         public bool AutoPanningPhotogrammetricWindow { get; set; }
         public bool AutoPanningMouse { get; set; }
         public Point3D OriginalPosition => throw null;

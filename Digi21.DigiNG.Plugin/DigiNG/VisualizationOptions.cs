@@ -4,6 +4,7 @@ namespace Digi21.DigiNG
 {
     public sealed class VisualizationOptions
     {
+        internal VisualizationOptions() => throw null;
         public double Overlap { get; set; }
         public bool ShowPatternInPhotogrammetricWindow { get; set; }
         public double DrawingScale { get; set; }

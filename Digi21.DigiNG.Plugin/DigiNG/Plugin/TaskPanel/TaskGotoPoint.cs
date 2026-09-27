@@ -19,7 +19,6 @@ namespace Digi21.DigiNG.Plugin.TaskPanel
         public int Size { get; set; }
         public Color Color { get; set; }
 
-        public Point3D GetCoordinates() => throw null;
-        public void SetCoordinates(Point3D value) => throw null;
+        public Point3D Coordinates { get => throw null; set => throw null; }
     }
 }

@@ -4,6 +4,7 @@ namespace Digi21.DigiNG
 {
     public class Commands
     {
+        internal Commands() => throw null;
         public void AddToHistorical(string command) => throw null;
         public bool Pop() => throw null;
         public void Push(string command) => throw null;

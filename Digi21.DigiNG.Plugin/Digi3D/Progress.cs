@@ -2,6 +2,7 @@
 {
     public class Progress
     {
+        internal Progress() => throw null;
         public bool Visible { get; set; }
         public int Value { get; set; }
         public int Maximum { get; set; }

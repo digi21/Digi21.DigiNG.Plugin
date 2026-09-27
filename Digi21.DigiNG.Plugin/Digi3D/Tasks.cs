@@ -4,6 +4,7 @@ namespace Digi21.Digi3D
 {
     public class Tasks
     {
+        internal Tasks() => throw null;
         public void Add(ITask task) => throw null;
         public void Clear() => throw null;
         public void Show() => throw null;

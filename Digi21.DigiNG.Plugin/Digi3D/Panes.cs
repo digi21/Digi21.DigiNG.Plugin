@@ -6,6 +6,7 @@ namespace Digi21.Digi3D
 {
     public class Panes
     {
+        internal Panes() => throw null;
         public Pane Add(Form form) => throw null;
         public Pane Add(Form form, Size size) => throw null;
         public Pane Add(Form form, PaneDock initialDock) => throw null;
