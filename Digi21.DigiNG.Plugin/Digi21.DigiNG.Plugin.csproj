@@ -14,7 +14,9 @@
     <SignAssembly>true</SignAssembly>
   </PropertyGroup>
   <PropertyGroup>
-    <AssemblyOriginatorKeyFile>certificadoSxsDigi21.pfx</AssemblyOriginatorKeyFile>
+    <!-- Public key only: reference assemblies need the Digi21 identity, not a real signature. -->
+    <AssemblyOriginatorKeyFile>..\Digi21.PublicKey.snk</AssemblyOriginatorKeyFile>
+    <PublicSign>true</PublicSign>
     <GeneratePackageOnBuild>False</GeneratePackageOnBuild>
     <Title>$(AssemblyName)</Title>
     <Version>26.0.0</Version>
